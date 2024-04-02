@@ -18,12 +18,12 @@ PARSER = ArgumentParser(
 
 PARSER.add_argument(
     "lhfile",
-    help="Path to an file to analyze.",
+    help="Path to a TOML file to diff",
 )
 
 PARSER.add_argument(
     "rhfile",
-    help="Path to an file to analyze.",
+    help="Path to a TOML file to diff",
 )
 
 PARSER.add_argument(
